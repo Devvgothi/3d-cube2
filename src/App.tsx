@@ -218,7 +218,7 @@ function App() {
   const allImagesUploaded = images.every(img => img !== '');
 
   // Calculate cube size based on viewport
-  const cubeSize = Math.min(300, window.innerWidth * 0.8); // Responsive size
+  const cubeSize = Math.min(200, window.innerWidth * 0.8); // Responsive size
   const halfSize = cubeSize / 2;
 
   return (
